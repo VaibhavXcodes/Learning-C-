@@ -2,9 +2,13 @@
 using namespace std;
 int main()
 {
-    int x = 5 ;
-    float y= 7;
-    cout<<x/y<<endl;
+    int x = 1;
+    cout<<x<<endl;
+
+    cout<<x--<<endl;
+    cout<<x<<endl;
+    cout<<--x<<endl;
+    cout<<x<<endl;
 
     return 0;
 }
