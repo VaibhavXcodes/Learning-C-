@@ -9,7 +9,7 @@ int main()
     cin>>b;
     cout<<"Enter the value of c: ";
     cin>>c;
-    if(a+b>c && b+c>a && c+b>a){
+    if((a+b)>c && (b+c)>a && (c+b)>a){
         cout<<"Valid triangle";
     }
     else{
