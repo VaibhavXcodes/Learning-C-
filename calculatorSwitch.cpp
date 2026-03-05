@@ -10,14 +10,18 @@ int main()
     cin>>n2;
     switch(op){
         case '+':
-        cout<<n1+n2<<endl;
+            cout<<n1+n2<<endl;
+            break;
         case '-':
-        cout<<n1-n2<<endl;
+            cout<<n1-n2<<endl;
+            break;
         case '*':
-        cout<<n1*n2<<endl;
+            cout<<n1*n2<<endl;
+            break;
         case '/':
-        cout<<n1/n2<<endl;
+            cout<<n1/n2<<endl;
+            break;
         default:
-        cout<<"Invalid Operator"<<endl;
+            cout<<"Invalid Operator"<<endl;
     }
 }
